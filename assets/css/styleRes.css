@@ -1,0 +1,82 @@
+
+@media screen and (max-width: 1409px) {
+    .intro-content, .order-content, .element-contact {
+        width: 75%;
+    }
+}
+/* Break point is 894px => block is not full height when max-width > 984px*/
+@media screen and (max-width: 895px) {
+    .intro-content, .order-content, .element-contact {
+        width: 98%;
+    }
+}
+/* Break point is 600px */
+@media screen and (max-width: 700px) {
+    #body {
+        margin-top: 0;
+    }
+
+    .show {
+        display: block;
+    }
+
+    #navbar {
+        height: max-content;
+        position: relative;
+    }
+    .menu {
+        /* display: none; */
+        flex-direction: column;
+    }
+    .hide {
+        display: none;
+    }
+    .search-icon {
+        position: absolute;
+        right: 0;
+        top: 0
+    }
+    .show-search {
+        display: none;
+    }
+    .show-bar {
+        display: inline-block;
+    }
+    .tickets {
+        flex-direction: column;
+        align-items: center;
+    }
+    .members {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .member {
+        width: 100%;
+    }
+    .card {
+      width: 90%;
+      margin-bottom: 15px;
+    }
+    .card .card-content {
+        width: 90%;
+    }   
+    .contact-info {
+        flex-direction: column;
+    }
+    .contact-info .left {
+        width: 100%;
+    }
+    .contact-info .right {
+        width: 100%;
+    }
+    .first-line {
+        flex-direction: column;
+    }
+    .first-line > div {
+        width: 100%;
+    }
+    .first-line > div > input {
+        padding: 1.25%;
+    }
+}
