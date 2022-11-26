@@ -121,6 +121,14 @@ ul {
     background-color: black;
 }
 
+#banner .wrapbanner {
+    display: none;
+}
+
+#banner .show {
+    display: block;
+}
+
 #banner .show-img {
     /* position: absolute; */
     /* margin-left: auto;
