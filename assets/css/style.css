@@ -118,7 +118,7 @@ ul {
     width: 100%;
     opacity: 0.9;
     position: relative;
-    background-color: black;
+    /* background-color: black; */
 }
 
 #banner .wrapbanner {
